@@ -20,18 +20,48 @@ public class BOJ_11720 {
 //        }
 //        System.out.println(sum);
 
+//
+//        ///  case 2)
+//        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+//
+//        int N = Integer.parseInt(br.readLine());
+//        String s = br.readLine();
+//
+//        int sum = 0;
+//        for (int i = 0; i < N; i++) {
+//            sum += Integer.parseInt(String.valueOf(s.charAt(i)));
+//        }
+//        System.out.println(sum);
 
-        ///  case 2)
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         int N = Integer.parseInt(br.readLine());
-        String s = br.readLine();
-
+        String inputs = br.readLine();
         int sum = 0;
+
         for (int i = 0; i < N; i++) {
-            sum += Integer.parseInt(String.valueOf(s.charAt(i)));
+            sum += Integer.parseInt(String.valueOf(inputs.charAt(i)));
         }
+
         System.out.println(sum);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     }
 }
